@@ -1,0 +1,17 @@
+# ====== 服务配置 ======
+server:
+  port: 8080
+  context-path: /activiti-server
+  tomcat:
+    uri-encoding: UTF-8
+
+# ====== 日志配置 ======
+logging:
+  level:
+    root: INFO
+    # 指定包日志级别
+    com.netflix: INFO
+    # 当前服务日志级别
+    org.cloudland.mango: DEBUG
+
+  file: logs/activiti-server.log
