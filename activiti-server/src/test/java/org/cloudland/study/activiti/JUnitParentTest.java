@@ -48,8 +48,7 @@ public class JUnitParentTest {
 
 }
 
-@SpringBootApplication
-//@ComponentScan(basePackages = {"org.cloudland.study.activiti"})
+@SpringBootApplication(scanBasePackages = {"org.cloudland.study.activiti"})
 @EnableTransactionManagement
 class JunitApplication {
     public static void main(String[] args) {

@@ -12,6 +12,7 @@ logging:
     # 指定包日志级别
     com.netflix: INFO
     # 当前服务日志级别
-    org.cloudland.mango: DEBUG
+    org.cloudland.study.activiti: DEBUG
 
-  file: logs/activiti-server.log
+  path:
+    file: logs/activiti-server.log

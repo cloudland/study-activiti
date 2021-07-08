@@ -9,11 +9,9 @@
 package org.cloudland.study.activiti.core.config;
 
 import org.activiti.engine.ProcessEngineConfiguration;
-import org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration;
 import org.activiti.spring.SpringProcessEngineConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySource;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.TransactionManager;
 
@@ -27,7 +25,7 @@ import javax.sql.DataSource;
  * @ClassName AlibabaDruidConfiguration
  * @see
  */
-//@Configuration
+@Configuration
 //@PropertySource(value = "classpath:druid/druid.properties")
 public class ActivitiConfiguration {
 

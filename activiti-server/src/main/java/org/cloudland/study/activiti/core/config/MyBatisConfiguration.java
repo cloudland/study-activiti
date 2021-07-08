@@ -42,7 +42,7 @@ import java.util.stream.Collectors;
  * @ClassName MyBatisMapperScanConfiguration
  * @see
  */
-@Configuration
+//@Configuration
 @ConditionalOnResource(resources = "classpath*:mybatis/*.properties")
 @ConditionalOnClass({org.mybatis.spring.boot.autoconfigure.SpringBootVFS.class, org.mybatis.spring.SqlSessionFactoryBean.class, org.mybatis.spring.mapper.MapperScannerConfigurer.class})
 public class MyBatisConfiguration {
